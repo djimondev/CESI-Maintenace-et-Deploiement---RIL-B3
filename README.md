@@ -14,7 +14,9 @@
  - [x] Utilisation d'une crontab
  - [x] Conteneurization d'une application Flutter avec une image custom (From Ubuntu) 
  - [x] Conteneurization d'une application Flutter avec une image officielle (cirrusci/flutter) 
- - [ ] Conteneurization d'une application angular
+ - [x] Conteneurization d'une application angular
+   (rapydo/angular-test:2.3)
+ - [x] cypress
  - [ ] Scripts de déploiement
  - [ ] Pipelines
  
