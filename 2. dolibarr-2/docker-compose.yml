@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  db:
+    container_name: dolibarr_db
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: dolibarr
+      POSTGRES_USER: dolibarr
+      POSTGRES_DATABASE: dolibarr
+    volumes:
+      - dolibarr_db:/var/lib/postgresql/data
+  dolibarr:
+    container_name: dolibarr
+    build: .
+    restart: always
+    volumes:
+      - ./dolibarr:/var/www/html
+    ports:
+      - 9191:80
+    links: 
+      - db
+volumes:
+  dolibarr_db:
