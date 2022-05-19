@@ -1,0 +1,32 @@
+version: "3.2"
+services:
+  php:
+    container_name: myapp_php
+    build: ./php/
+    ports:
+      - "1234:80"
+    volumes:
+      - "./apps/:/var/www/html"
+    depends_on:
+      - database
+  database:
+    container_name: myapp_mysql
+    image: mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: app
+  phpmyadmin:
+    container_name: myapp_pma
+    depends_on:
+     - database
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - '2345:80'
+    environment:
+      PMA_HOST: database
+      PMA_PORTS: 9000
+      PMA_USER: root
+      PMA_PASSWORD: root
+      UPLOAD_LIMIT: 300M
+
