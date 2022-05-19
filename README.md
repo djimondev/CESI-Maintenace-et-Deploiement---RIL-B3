@@ -16,6 +16,6 @@ version 1.0
  - [x] Conteneurization d'une application Flutter avec une image officielle (cirrusci/flutter) 
  - [x] Conteneurization d'une application angular
    (rapydo/angular-test:2.3)
- - [x] cypress
+ - [x] Cypress
  - [x] Scripts de déploiement
  - [ ] Pipelines
