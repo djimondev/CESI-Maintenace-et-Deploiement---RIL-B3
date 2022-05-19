@@ -3,9 +3,13 @@
 ## VIM customized
   - https://github.com/petervanderdoes/gitflow-avh
 
-## Oh-my-zsh 
+## Oh-my-zsh
 
   - https://ohmyz.sh/
+
+## BpyTop
+
+ - https://github.com/aristocratos/bpytop
 
 ## My aliases
 
