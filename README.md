@@ -6,7 +6,7 @@ version 1.0
 
  - [x] Git
  - [x] Git-Flow
- - [ ] Git-Flow CLI
+ - [x] Git-Flow CLI
  - [x] Docker
  - [x] Docker-compose
  - [x] Créer une image docker
@@ -17,6 +17,5 @@ version 1.0
  - [x] Conteneurization d'une application angular
    (rapydo/angular-test:2.3)
  - [x] cypress
- - [ ] Scripts de déploiement
+ - [x] Scripts de déploiement
  - [ ] Pipelines
- 
