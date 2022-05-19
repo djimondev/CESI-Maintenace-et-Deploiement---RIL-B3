@@ -1,6 +1,6 @@
+version 1.0
+
 # Maintenance et Deploiement
-
-
 
 ## Sujets abordés
 
@@ -19,7 +19,4 @@
  - [x] cypress
  - [ ] Scripts de déploiement
  - [ ] Pipelines
- 
-
- 
  
