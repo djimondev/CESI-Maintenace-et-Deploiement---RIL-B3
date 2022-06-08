@@ -14,7 +14,6 @@ multipass launch -n worker
 ## Installation de Kubectl
 
 Assurez-vous d'avoir installé *kubectl* sur la machine depuis laquelle vous avez lancé les commandes Multipass. *kubectl*  permet de communiquer avec un cluster Kubernetes depuis la ligne de commande.
-Note: vous pouvez vous reporter à l'exercice [installation de kubectl](https://gitlab.com/lucj/k8s-exercices/-/blob/master/Installation/kubectl.md) pour l'installation de *kubectl*.
 
 ## Initialisation du cluster
 
